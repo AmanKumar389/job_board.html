@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <link rel="stylesheet" href="job_board.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Job Board</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Job Listings</a></li>
+                    <li><a href="#">Employer Dashboard</a></li>
+                    <li><a href="#">Candidate Dashboard</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="featured-jobs">
+            <div class="container">
+                <h2>Featured Job Listings</h2>
+                <div class="job-listing">
+                    <h3>Software Engineer</h3>
+                    <p>Company: Tech company</p>
+                    <p>Location: New delhi</p>
+                    <p>Description: I am Software engg in noida...</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+                <div class="job-listing">
+                    <h3>Marketing Manager</h3>
+                    <p>Company: Marketing Solutions</p>
+                    <p>Location: greater noida uttarpredesh</p>
+                    <p>Description: it is the Marketing solution company...</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; THANKU.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+  
+
+
+                                                                      for css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #654687;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.featured-jobs {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
+
+.job-listing {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.job-listing h3 {
+    margin-top: 0;
+}
+
+.job-listing p {
+    margin: 5px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #bb4848;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #aa7f7f;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+
